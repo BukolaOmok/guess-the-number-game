@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-GB", dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Guess the Number Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  
+  <body class="home">
+    <div class="heading">
+    <h1>Welcome to Lady Bukola's Guessing Game</h1>
+    </div>
+
+    <div class="para">
+    <p>In the realm of wisdom and intrigue, Lady Bukola has prepared a challenge that tests the wits and intuition of those daring enough to participate. 
+   
+        
+    <p>A secret number, veiled in mystery, lies between 1 and 100. With only 10 chances at your disposal, can you uncover the number hidden by Lady Bukola herself? She will guide your journey with hints, revealing whether your guess is too high or too low.</p>
+
+    <p>Embark on this enigmatic adventure. Your quest begins now!</p> 
+
+    <p>Please, make your first guess.</p>
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHigh"></p>
+    </div>
+
+    <div class="form">
+      <label for="guessField" class="guessField"> <strong>Enter a guess:</strong></label> 
+      <input type="number" class="number" min="1" max="100" required id ="guessField" class="guessField"> 
+      <input type="submit" value="Submit Guess" class="guessSubmit">
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,53 @@
+
+/* HOME
+
+--------------------------------------*/
+.home {
+    background-color:aliceblue;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.heading{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 50;
+    margin: 0;
+    padding: auto;
+    font-size: 1.5rem;
+    line-height: 1.0;
+    }
+.para{
+        font-family: 'Nunito',
+        sans-serif;
+        font-weight: 100;
+        margin: 2;
+        padding: auto;
+        font-size: 1rem;
+        line-height: 1.25;
+        }
+.guessField{
+    font-family: 'Nunito',
+    sans-serif;
+    font-weight: 100;
+    margin: 2;
+    padding: auto;
+    font-size: 1rem;
+    line-height: 1.25;
+    }
+.number {
+    display: inline-block;
+    width: 100px;
+    margin-left: 20px;
+}
+.guessSubmit {
+    font-family: 'Nunito',
+    sans-serif;
+    font-weight: 100;
+    margin: 2;
+    margin-left: 20px;
+    font-size: 0.8rem;
+    line-height: 1.25;
+    font-weight: 800;
+    display: inline-block;
+    width: 100px;
+}
