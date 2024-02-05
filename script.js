@@ -42,6 +42,16 @@ function checkGuess() {
   guessField.focus();
 }
 guessSubmit.addEventListener("click", checkGuess);  
+
+guessField.addEventListener("keypress", function (event) {
+  // Check if the key pressed is the Enter key
+  if (event.key === "Enter") {
+    // Prevent the form from submitting if it's inside a <form> element
+    event.preventDefault();
+    // Trigger the click event on the guessSubmit button
+    guessSubmit.click();
+  }
+});
   
 function setGameOver() {
     guessField.disabled = true;
